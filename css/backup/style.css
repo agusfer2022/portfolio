@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@100;400;600;700&display=swap");
+.footer {
+  background-color: aquamarine; }
+
+/* ----------- VARIABLES CSS ------------  */
+:root {
+  --color-dark:#050506;
+  --color-light:#ffffff;
+  --color-red: #ED0000;
+  --color-dark-red: #CF0000;
+  --color-grey: #C9C9C9;
+  --header-height: 3rem; }
+
+html {
+  scroll-behavior: smooth; }
+
+::selection {
+  background-color: var(--color-red);
+  color: var(--color-light); }
+
+/* ----------- GOOGLE FONTS ------------  */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 200;
+  background-color: var(--color-dark);
+  color: var(--color-light); }
+
+.button-primary {
+  padding: 10px;
+  background-color: var(--color-red);
+  font-weight: 400;
+  font-size: 0.75rem;
+  border-radius: 8px;
+  color: var(--color-light);
+  text-decoration: none;
+  letter-spacing: 0.4px;
+  line-height: 20px; }
+
+.button-primary:hover {
+  color: var(--color-light);
+  font-weight: 400;
+  transition: 0.3s;
+  opacity: 0.9; }
+
+.button-secondary {
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: var(--color-light);
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  padding: 8px;
+  line-height: 20px;
+  border-bottom: 1px solid var(--color-light); }
+
+.button-secondary:hover {
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: var(--color-light); }
+
+/* ----------- NAV BAR------------  */
+.nav-link {
+  color: var(--color-grey) !important;
+  margin-left: 2rem;
+  font-size: .9rem;
+  font-weight: 400;
+  transition: 0.3s;
+  opacity: 0.9;
+  margin-left: .5rem; }
+
+.nav-link:hover {
+  font-weight: 400;
+  font-size: .9rem;
+  color: var(--color-red) !important; }
+
+/* ----------- HERO ------------  */
+.home-heading {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: 'DM Serif Display', serif; }
+
+.home-subtitle {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 0.875rem;
+  letter-spacing: 0.6rem;
+  border-left: 3px solid var(--color-red);
+  padding-left: 1rem; }
+
+.home-description {
+  font-size: 1rem;
+  font-weight: 100; }
+
+.icons-social > a {
+  border-radius: 50%;
+  display: inline-flex;
+  size: 40px;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center; }
+
+.bg-dribbble {
+  background-color: #ea4c89;
+  width: 40px;
+  height: 40px; }
+
+.bg-behance {
+  background-color: #105EFB;
+  width: 40px;
+  height: 40px; }
+
+.bg-linkedin {
+  background-color: #1569BF;
+  width: 40px;
+  height: 40px; }
+
+/* ----------- ABOUT------------  */
+.experience-title {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  letter-spacing: 2px; }
+
+.about-profile {
+  font-weight: 600; }
+
+.work {
+  font-weight: 100; }
+
+.date {
+  color: var(--color-grey);
+  font-weight: 100; }
+
+.card {
+  background-color: transparent; }
+
+.card-body {
+  padding: 0; }
+
+.heading-1 {
+  font-size: 5.875rem; }
+
+/* ----------- FOOTER -----------  */
+.social {
+  margin-left: 2rem; }
